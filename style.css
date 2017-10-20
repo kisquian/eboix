@@ -1,0 +1,547 @@
+/*
+Theme Name: Estudio Boix
+Theme URI: http://estudioboix.com
+Author: Cosmic Designs
+Author URI: http://christianmiguez.com/
+Description: Theme para Estudio Boix, ingenieros agrimensores de Uruguay.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, modern, ingenieros, agrimensores, estudio, boix
+Text Domain: eboix
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+ @import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+p {
+    font-family: 'Titillium Web', sans-serif;
+}
+/*!
+ * red vine web studio demos
+ */
+
+
+.demo-portfolio-item {
+    position: relative;
+    float: left;
+    margin: 0 0 20px;
+    width: 100%;
+    height: 220px;
+}
+.bx-wrapper {
+    position: relative;
+    margin-bottom: 30px !important;
+    padding: 0;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -moz-box-shadow: 0 0 5px #ccc;
+    -webkit-box-shadow: 0 0 5px #ccc;
+    box-shadow: 0 0 5px #ccc;
+    border: 5px solid #fff;
+    background: #fff;
+    margin-left: 0;
+    border-left: 0 !important;
+}
+#one > div > div > div:nth-child(2) > footer > a {
+    float: right
+}
+.modal-content h2 {
+    text-align: left !important;
+    color: white;
+}
+#animatedModalServicios .modal-content {
+    margin-top:0;
+}
+.modal-content ul {
+    color: white;
+    margin-left: 0;
+}
+.modal-content ul li {
+    list-style: square;
+}
+.spanYear {
+    text-align: right;
+    float: right;
+    padding-right: 10px;
+    background: #ffffff;
+    padding-left: 10px;
+    color: #26b192;
+}
+.leftColm {
+    width: 45%;
+    float: left;
+    margin-top: 29px;
+}
+#animatedModalContacto label, #animatedModalContacto strong, b {
+    color: #fff;
+}
+    ul.tabs{
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+        }
+        ul.tabs li{
+            background: none;
+            color: white;
+            display: inline-block;
+            padding: 10px 15px;
+            cursor: pointer;
+        }
+
+        ul.tabs li.current {
+        color: #fff;
+        border-bottom: 3px solid #11ad8d;
+    }
+
+        .tab-content{
+            display: none;
+            padding: 15px;
+        }
+
+        .tab-content.current{
+            display: inherit;
+        }
+.righImg {
+    width: 50%;
+    float: left;
+    margin-top: -5px;
+}
+.righImg img {
+    max-height: 230px;
+}
+.demo-portfolio-item::before,
+.demo-portfolio-item::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+.demo-portfolio-item::before {
+    top: 0;
+    height: 100%;
+    background: rgba(181, 183, 188, 0.3);
+    -webkit-transition: background 0.5s;
+    transition: background 0.5s;
+}
+
+.portfolio-item {
+    width: 46%;
+    margin-bottom: 10px;
+}
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+}
+#filters a {
+    background: transparent;
+    border: 1px solid #0aab8a !important;
+    color: #0aab8a !important;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+#filters a:hover, #filters a.active {
+    background-color: #0aab8a;
+    border: 1px solid #0aab8a !important;
+    color: #fff !important;
+        font-family: 'Titillium Web', sans-serif;
+
+}
+header a {
+    text-decoration: none;
+}
+
+/**** Isotope Filtering ****/
+.grid-item { width: 33.333%; }
+.grid-item img {
+  width: 100%;
+  height: auto;
+}
+/* fluid 5 columns */
+/* 3 columns by default */
+/* fluid 5 columns */
+.grid-sizer,
+.grid-item { width: 33.333%; }
+.grid-item {
+    padding-right: 1%;
+    max-height: 254px;
+    overflow: hidden;
+    min-height: auto;
+    height: 213px;
+    border-bottom: 12px solid white;
+}
+.thumbnail {
+    padding-bottom: 12px;
+}
+.grid-item-description {
+    bottom: 15px;
+    position: absolute;
+    text-align: left;
+    width: 85%;
+    color: white;
+    font-weight: bold;
+    background: rgba(10, 171, 138, 0.85);
+    padding-left: 15px;
+}
+#one > div > div > div > div > div.content > header > p:nth-child(3) {
+    display: none;
+}
+#one > div > div > div > div > div.content > header > p:nth-child(1) {
+    display: none;
+}
+#animatedModalContacto .box {
+ background:transparent;
+}
+.wrapper.style2 input[type="submit"], .wrapper.style2 input[type="reset"], .wrapper.style2 input[type="button"], .wrapper.style2 button, .wrapper.style2 .button {
+    background-color: #479982;
+    color: #ffffff !important;
+    font-weight: bold;
+}
+#cboxOverlay {
+    background: #002b22 !important;
+    opacity: 0.9;
+    filter: alpha(opacity = 90);
+}
+#cboxCurrent {
+    display: none !important
+}
+@media screen and (max-width: 768px) {
+    h1.logo {
+    zoom: 0.7;
+    margin-top: 5px !important;
+}
+.modal-content h2 {
+    text-align: left !important;
+    color: white;
+    margin-top: 25px;
+}
+
+ul.tabs li {
+    background: none;
+    color: white;
+    display: inline-block;
+    padding: 10px 8px;
+    cursor: pointer;
+    float: left;
+}
+.tab-content {
+    padding: 0 !important
+
+}
+.modal-content {
+    width: 90% !important;
+    text-align: justify;
+    margin-top: 25px !important;
+}
+.masTrabajos {
+ 
+    margin-top: 15px;
+}
+#animatedModal .container, #animatedModalServicios .container, #animatedModalContacto .container {
+    width: 100% !important;
+}
+.leftColm {
+    width: 100%;
+    float: none;
+    margin-top: 0;
+}
+.righImg {
+    display: none
+}
+ 
+  .grid-sizer,
+  .grid-item { width: 100%; }
+   
+  #header.alt {
+        top: 0 !important;
+        background: #000 !important;
+    }
+    .banner article h2 {
+    display:none !important;
+    }
+    .banner article p {
+        display:none !important;
+    }
+    .wrapper {
+        padding: 10px 0 0 !important;
+    }
+    #header > .logo span {
+    display: none !important;
+    }
+    #foot h2 {
+        font-size: 15px;
+    }
+    ul.actions.fit.small li {
+        padding: 0;
+        width: 33%;
+        display: inline-block;
+    }
+    ul.actions.fit li > * {
+        margin-bottom: 0;
+        font-size: 9px;
+    }
+    .subpage h2 {
+    margin: 0;
+}
+  }
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+ 
+    .portfolio-item {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+ 
+}
+
+.subpage .box {
+    background: transparent;
+}
+.subpage .box .content {
+    padding: 0px 0;
+    margin-top: 0px;
+    height: 700px;
+}
+.subpage .box .main-content {
+   height: 100%;
+}
+.subpage #two {
+    padding:0px;
+    position: relative;
+    margin: 0;
+}
+.subpage .wrapper > .inner {
+    width: 100%;
+}
+.fullscreen .wrapper > .inner {
+    margin: 0 auto;
+    width: 100%;
+}
+.fullscreen .wrapper {
+	padding: 0
+}
+.subpage .wrapper {
+    padding: 2rem 0 2rem 0;
+}
+.common-page .box .content {
+    padding: 25px;
+    margin-top: 25px;
+}
+.clearfix {
+  display: block;
+  clear: both;
+}
+.wrapper.style2 h2 {
+    color: #000;
+    font-weight: 400;
+    font-size: 28px;
+    font-family: 'Titillium Web', sans-serif;
+}
+section#zero {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d8d8d8+0,f2f2f2+100 */
+}.subpage h2 {
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+}
+.wrapper.style2 {
+    background-color: white;
+    color: #a6a6a6;
+}
+.contact-page .wrapper.style2 {
+    background-color: transparent;
+    color: inherit;
+}
+.contact-page .dashicons {
+    font-size: 27px;
+    margin-right: 9px;
+}
+ul.links ul li a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #fff;
+    margin: 5px 0;
+    display: block;
+}
+ul.links ul li a:hover {
+  color: white
+}
+ul.links ul {
+  margin-bottom: 15px;
+}
+#menul ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+.icn {
+    background: url(images/icons.png) no-repeat -5px -3px;
+    width: 49px;
+    height: 48px;
+    float: left;
+    display: block;
+    margin-right: 10px;
+    zoom: 0.7;
+}
+.icn-location {
+    background-position: -56px -3px;
+}
+.icn-phone {
+    background-position: -110px -3px;
+}
+.box .boxContent {
+      width: 255px;
+    float: left;
+}
+.box .boxContent:after {
+  clear: both;
+  display:block;
+  content '';
+}
+
+#one.wrapper.style2 .button.special {
+    background-color: #0aab8a;
+    font-weight: bold;
+    color: white !important;
+    border-color: #0aab8a;
+}
+#one.wrapper.style2 .button.special:hover {
+    background-color: #12e0b6;
+    font-weight: bold;
+    color: white !important;
+    border-color: #0aab8a;
+}
+.subpage #One::before {
+    display: block;
+    content: '';
+    background: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    opacity: 0.5
+}
+.df-container > .df-ui-next, .df-container > .df-ui-prev {
+    color: white !important;
+    opacity: 1 !important;
+}
+.bx-wrapper img {
+    width: 100%;
+}
+.bx-wrapper {
+    box-shadow: none !important
+}
+.wrapper.style2 h3 {
+    margin-left: 0px;
+    font-size: 28px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.bxslider li {
+    padding: 0;
+    overflow: hidden;
+}
+.bx-wrapper .bx-caption span {
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif !important;
+    display: block;
+    font-size: 16px !important;
+    padding: 10px;
+    background: #0aab8a;
+    border-left: 5px solid #08977a;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.32);
+}
+.bx-wrapper .bx-caption {
+    z-index: 6;
+}
+.shows {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: rgba(10, 171, 138, 0.67);
+    color: white;
+    position: absolute;
+    z-index: 5;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 120px;
+    font-size: 24px;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.33);
+}
+.masTrabajos {
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.25);
+    position: relative;
+    z-index: 500;
+    padding: 10px 0;
+    margin-top: 85px;
+}
+   .portfolioTitle{ 
+        font-size: 30px;
+        font-weight: 900;
+}
+#menul.navigation .close:hover {
+    color: #ffffff !important;
+}
+.masTrabajos a {
+    text-transform: none;
+    color: white !important;
+    font-size: 19px;
+    padding: 11px;
+    border-bottom: none;
+    text-decoration: none;
+}
+.masTrabajos a:hover {
+    border-bottom: 3px solid #0ca686;
+}
+.masTrabajos h3 {
+        text-transform: uppercase;
+    font-size: 24px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus, .bx-wrapper .bx-pager.bx-default-pager a:hover {
+    background: #0aab8a !important;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+    background: #a3e3d6 !important;
+}
+.banner > article p:after {
+    display: none;
+}
+#foot {
+    padding: 15px;
+    padding-bottom: 0;
+}
+.reveal > h1.logo {
+    zoom: 0.8;
+    margin-top: 7px !important;
+}
+.modalNuestroEstudio {
+    background: url('https://www.estudioboix.com.uy/beta/wp-content/uploads/2017/09/boatingLago-bg.jpg') center top no-repeat;
+    background-size: cover;
+}
+.Servicios {
+    background: url('https://www.estudioboix.com.uy/beta/wp-content/uploads/2017/09/shoppingNuevoCentroGrandeBg.jpg') center top no-repeat;
+}
+.Contacto .modal-content {
+    margin-top: 0
+}
+.modalNuestroEstudio:before {
+    display: block;
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.75);
+    z-index: -50000;
+    position: fixed;
+    }
+
+.modalNuestroEstudio p {
+    color: white;
+}
