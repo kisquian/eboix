@@ -2580,13 +2580,13 @@ body, input, select, textarea {
 				    background-color: transparent;
 				    color: black !important;
 				    font-weight: normal;
-				    border-bottom: 4px solid #f1f1f1;
+				    border-left: 4px solid #f1f1f1;
 				}
 				.wrapper.style2 input[type="submit"].special.active, .wrapper.style2 input[type="reset"].special.active, .wrapper.style2 input[type="button"].special.active, .wrapper.style2 button.special.active, .wrapper.style2 .button.special.active {
 				    background-color: transparent;
 				    color: black !important;
 				    font-weight: bold;
-				    border-bottom: 4px solid #0aab8a;
+				    border-bottom: 4px solid #fff;
 				}
 					.wrapper.style2 input[type="submit"].special:hover,
 					.wrapper.style2 input[type="reset"].special:hover,
@@ -2602,6 +2602,10 @@ body, input, select, textarea {
     background-color: #0aab8a;
     font-weight: bold;
     color: white !important;
+}
+button.button:focus {
+	border: none !important;
+	outline: 0
 }
 			.wrapper.style2 label {
 				color: #000;

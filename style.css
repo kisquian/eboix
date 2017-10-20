@@ -50,9 +50,27 @@ p {
 .modal-content h2 {
     text-align: left !important;
     color: white;
+    font-weight: bold;
 }
 #animatedModalServicios .modal-content {
     margin-top:0;
+}
+.modal-content h2 {
+    text-align: left !important;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 40px;
+    border-left: 5px solid #0aab89;
+    padding-left: 20px;
+    margin-top: 40px;
+}
+h2.logoTitle {
+    display: block;
+    width:196px ;
+    height:51px;
+    text-indent: -9999%;
+    background: url(https://www.estudioboix.com.uy/beta/wp-content/uploads/2017/10/logo.png) no-repeat;
+
 }
 .modal-content ul {
     color: white;
@@ -523,6 +541,8 @@ ul.links ul {
 .modalNuestroEstudio {
     background: url('https://www.estudioboix.com.uy/beta/wp-content/uploads/2017/09/boatingLago-bg.jpg') center top no-repeat;
     background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.7);
+
 }
 .Servicios {
     background: url('https://www.estudioboix.com.uy/beta/wp-content/uploads/2017/09/shoppingNuevoCentroGrandeBg.jpg') center top no-repeat;
@@ -540,6 +560,7 @@ ul.links ul {
     background: rgba(0, 0, 0, 0.75);
     z-index: -50000;
     position: fixed;
+    display: none
     }
 
 .modalNuestroEstudio p {

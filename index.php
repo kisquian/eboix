@@ -63,7 +63,7 @@
 					<div class="grid-style">
 
 						<div>
-						<h2>Estudio Boix Ingenieros Agrimensores</h2>
+						<h2 class="logoTitle">Estudio Boix Ingenieros Agrimensores</h2>
 				<p><br> Somos una empresa familiar con más de 74 años y tres generaciones presentando servicios de agrimensura en todo el país y en el exterior.</p>
 				<p>El equipamiento de última generación y un equipo humano altamente especializado acostumbrado a hacer frente a proyectos ambiciosos acompañan nuestro compromiso con cada trabajo y con cada cliente. <br><br> </p>
 				<footer class="">
