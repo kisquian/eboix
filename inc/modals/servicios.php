@@ -30,7 +30,7 @@
             <p>Nuestra condición de especialistas permite generar mejoras en los proyectos con la resolución técnica de problemas específicos, así como con aportes orientados a lograr la excelencia del proceso y del producto final.</p>
 
 
-            <h2>Topografía</h2>
+            <h2 id="topografia">Topografía</h2>
 
             <p>En la topografía para obra civil el servicio se basa principalmente en el levantamiento de existencias para la elaboración del proyecto, el replanteo o marcación de referencias para la construcción, el control de lo realizado y los cálculos para la certificación.</p>
 
@@ -39,13 +39,16 @@
             <p>Si bien los métodos y recursos empleados varían según el tipo de proyecto, lo que se mantiene constante son nuestras premisas: calidad y velocidad del trabajo topográfico. Esto repercute directamente en los tiempos de ejecución y los costos de la obra.</p>
 
 
-    <h2>Urbanizaciones</h2>
+    <h2 id="urbanizaciones">Urbanizaciones</h2>
 
     <p>El estudio cuenta con vasta experiencia en viabilidad, diseño y aprobación de emprendimientos residenciales, tanto en el formato abierto tradicional, como en el cerrado estilo Club de Campo.</p>
 
     <p style="color:white;font-weight: 900;"><br> Club de campo</p>
 
     <p>En estos desarrollos asistimos al cliente en las etapas de anteproyecto y viabilidad, proyecto ejecutivo, ejecución de la obra, final de obra ante la Intendencia y registro del Plano de Fraccionamiento. Nuestra larga trayectoria desarrollando emprendimientos de esta clase nos permite generar asesoría y diseños que superen las expectativas del cliente.</p>
+
+    <p style="text-align: center; margin-top: 40px;
+    margin-bottom: 40px;"><img src="https://www.estudioboix.com.uy/beta/wp-content/themes/estudioBoix/images/logo-white.png" alt="Estudio Boix" ></p> <br><br>
 
 
 </div><!-- container -->
